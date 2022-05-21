@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-coinbase-commerce",
+  "version": "1.0.0",
+  "description": "A practice of coibase commerce",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jimmond/nodejs-coinbase-commerce.git"
+  },
+  "author": "Jimmond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jimmond/nodejs-coinbase-commerce/issues"
+  },
+  "homepage": "https://github.com/Jimmond/nodejs-coinbase-commerce#readme",
+  "dependencies": {
+    "coinbase-commerce-node": "^1.0.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  }
+}
